@@ -34,11 +34,6 @@
     "typescript": "5.0.4"
   },
   "packageManager": "yarn@3.5.0",
-  "husky" :{
-    "hooks" : {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,ts,tsx}": [
       "eslint --cache --fix"
