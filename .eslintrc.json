@@ -7,13 +7,14 @@
     "airbnb-typescript",
     "next/core-web-vitals"
   ],
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": " tsconfig.json"
   },
   "rules": {
     "unused-imports/no-unused-imports": "error",
     "simple-import-sort/imports": "error",
     "@typescript-eslint/semi": ["error", "never"]
-
-  }
+  },
+  "ignorePatterns": "*.js"
 }

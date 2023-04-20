@@ -38,7 +38,7 @@
   },
   "packageManager": "yarn@3.5.0",
   "lint-staged": {
-    "*.{js,ts,tsx}": [
+    "*.{ts,tsx}": [
       "eslint --cache --fix"
     ]
   }
