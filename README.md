@@ -1,36 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## SajaTalk 프로젝트
 
-## Getting Started
+Infocat에서 멘토링 관련 이야기를 진행하다가 어쩌다보니 직종을 회계사 같은 시험치는 직업으로 바뀌고 커뮤니티가 붙게 되었다.
+기존 코드도 맘에 안들고 주제도 많이 바뀌고 해서 새로운 프로젝트로 시작하려고한다.
 
-First, run the development server:
+#### 프로젝트 세팅
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+yarn berry : 도입하는 명확한 목표는 없지만 (의존성 격리나 zero install은 혼자 개발하는 입장에서 그렇게까지 필요하지 않다.) 신기술 사용해보는 목적이 크다.
+eslint : airbnb룰을 도입했다. next가 제공하는 config도 추가했다. + husky
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+기술 스택 : nextJS, tailwindcss, typescript
